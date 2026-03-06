@@ -1,5 +1,8 @@
-if (n := len([1,2,3])) > 3 :
-    print(f"List is too long ({n} elemenets,expected <= 3)")
+# if(n:=len([1,2,3,4,5]))>3:
+#     print(f"list is too long ({n} ecpexted >=3)")
 
+n = int(input("Enter a number : "))
+if (n%2==0):
+    print("number is even ")
 else:
-    print(f"List is perfect ({n} elemenets <= 3)")
+    print("number is odd ")
